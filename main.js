@@ -1,3 +1,4 @@
+//SECTION ONE
 //EVENT LISTENERS
 eventListeners();
 

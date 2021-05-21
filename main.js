@@ -30,7 +30,7 @@ function checkYuGiHo(e, n) {
     e.preventDefault();
     if (isNaN(n)) {
         
-        answerYu.value = `${n} is not a valid number but a/an ${typeof n}`;
+        answerYu.value = `Invalid parameter: ${n}`;
     } else {
         let originalArray = [...Array(Number(n)).keys()].map(i => i + 1);
 
